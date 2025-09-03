@@ -38,6 +38,10 @@ PRODUCT_PACKAGES += \
 # Init
 $(call soong_config_set,xiaomi_msmnile,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_raphael)
 
+# Power
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/power/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+
 # Overlays
 PRODUCT_PACKAGES += \
     ApertureOverlayDevice \
