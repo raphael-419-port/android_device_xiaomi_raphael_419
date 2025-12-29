@@ -5,8 +5,9 @@
 //
 
 cc_library_static {
-    name: "libvariant_xiaomi_raphael",
-    srcs: ["libvariant_xiaomi_raphael.cpp"],
-    header_libs: ["//device/xiaomi/sm8150-common:libvariant_headers"],
+    name: "init_xiaomi_raphael",
+    srcs: ["init_xiaomi_raphael.cpp"],
+    whole_static_libs: ["//device/xiaomi/sm8150-common:libinit_xiaomi_msmnile"],
+    include_dirs: ["system/core/init"],
     recovery_available: true,
 }
