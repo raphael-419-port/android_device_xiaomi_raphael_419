@@ -18,7 +18,7 @@ PRODUCT_NAME := lineage_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Mi 9T Pro
+PRODUCT_MODEL := K20 Pro
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
